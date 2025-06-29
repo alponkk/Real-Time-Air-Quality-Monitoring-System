@@ -36,16 +36,12 @@ This project demonstrates a **production-ready real-time data pipeline** that mo
 ## 📊 **Live System Screenshots**
 
 ### **Real-Time Kafka Streaming**
-![Kafka UI - Topic Messages](https://via.placeholder.com/800x500/2d3748/ffffff?text=Kafka+UI+%7C+Air+Quality+Data+Streams)
+![image](https://github.com/user-attachments/assets/d0a55ad7-73b7-4ef1-a475-9298de48ace6)
 *Live Kafka topic showing real-time air quality data messages*
 
 ### **Interactive Grafana Dashboard**
-![Grafana Dashboard](https://via.placeholder.com/1200x800/1a202c/ffffff?text=Grafana+Dashboard+%7C+Air+Quality+Monitoring)
+![image](https://github.com/user-attachments/assets/a4b23e27-35ab-4b87-a584-88a83ca0e038)
 *Complete Grafana dashboard with AQI trends, city comparisons, and alert monitoring*
-
-### **System Monitoring Interface**
-![Grafana UI Overview](https://via.placeholder.com/1000x600/2d3748/ffffff?text=Grafana+UI+%7C+System+Overview)
-*Grafana interface showing multiple monitoring panels and real-time updates*
 
 ## 🏗️ **Architecture Overview**
 
