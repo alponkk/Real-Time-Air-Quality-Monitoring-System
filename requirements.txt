@@ -1,0 +1,50 @@
+# Kafka
+kafka-python==2.0.2
+confluent-kafka==2.3.0
+
+
+
+# Database connectors
+psycopg2-binary==2.9.7
+
+# Data processing
+pandas==2.0.3
+numpy==1.24.3
+
+# HTTP requests and APIs
+requests==2.31.0
+urllib3==2.0.4
+
+# JSON processing
+ujson==5.8.0
+
+# Logging
+loguru==0.7.0
+
+# Configuration
+python-dotenv==1.0.0
+pyyaml==6.0.1
+
+# Date/time processing
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Async processing
+asyncio-mqtt==0.16.1
+aiohttp==3.8.5
+
+# Data validation
+pydantic==2.1.1
+
+# Monitoring and metrics
+prometheus-client==0.17.1
+
+# Scheduling
+schedule==1.2.0
+
+# CLI
+click==8.1.6
+
+# Testing (optional)
+pytest==7.4.0
+pytest-asyncio==0.21.1 
