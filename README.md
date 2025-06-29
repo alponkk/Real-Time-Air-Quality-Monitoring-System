@@ -7,8 +7,6 @@
 [![Docker](https://img.shields.io/badge/docker-supported-blue.svg)](docker-compose.yml)
 [![Grafana](https://img.shields.io/badge/grafana-dashboard-orange.svg)](http://localhost:3000)
 
-![System Architecture Overview](https://via.placeholder.com/1000x400/1e1e1e/ffffff?text=Real-Time+Air+Quality+Monitoring+System+Architecture)
-*Complete system architecture with real-time data processing pipeline*
 
 ## **Project Overview**
 
