@@ -10,11 +10,11 @@
 ![System Architecture Overview](https://via.placeholder.com/1000x400/1e1e1e/ffffff?text=Real-Time+Air+Quality+Monitoring+System+Architecture)
 *Complete system architecture with real-time data processing pipeline*
 
-## 🎯 **Project Overview**
+## **Project Overview**
 
 This project demonstrates a **production-ready real-time data pipeline** that monitors air quality across 8 major global cities in real-time. It showcases enterprise-level data engineering practices using Apache Kafka for streaming, PostgreSQL for storage, and Grafana for visualization.
 
-### **🌟 What Makes This Special**
+### **What Makes This Special**
 
 - **Real-Time Processing**: 5-minute data collection cycles with instant stream processing
 - **Scalable Architecture**: Microservices design with Docker containerization  
@@ -23,7 +23,7 @@ This project demonstrates a **production-ready real-time data pipeline** that mo
 - **Fault Tolerance**: Robust error handling and automatic recovery
 - **Production Ready**: Comprehensive logging, monitoring, and health checks
 
-### **🏆 Key Learning Outcomes**
+### **Key Learning Outcomes**
 
 | Technology | Skills Gained | Industry Application |
 |------------|---------------|---------------------|
@@ -33,7 +33,7 @@ This project demonstrates a **production-ready real-time data pipeline** that mo
 | **Grafana** | Real-time dashboards, alerting, data visualization | Monitoring systems, business intelligence |
 | **Python & APIs** | ETL processes, error handling, async programming | Data engineering, backend development |
 
-## 📊 **Live System Screenshots**
+## **Live System Screenshots**
 
 ### **Real-Time Kafka Streaming**
 ![image](https://github.com/user-attachments/assets/d0a55ad7-73b7-4ef1-a475-9298de48ace6)
@@ -43,7 +43,7 @@ This project demonstrates a **production-ready real-time data pipeline** that mo
 ![image](https://github.com/user-attachments/assets/a4b23e27-35ab-4b87-a584-88a83ca0e038)
 *Complete Grafana dashboard with AQI trends, city comparisons, and alert monitoring*
 
-## 🏗️ **Architecture Overview**
+## **Architecture Overview**
 
 This project demonstrates a complete end-to-end big data pipeline including:
 
@@ -149,7 +149,7 @@ This project demonstrates a complete end-to-end big data pipeline including:
    ```
    
 
-## 🏗️ **System Architecture**
+## **System Architecture**
 
 ### **High-Level Data Flow**
 ![Architecture Diagram](https://via.placeholder.com/1000x500/1a202c/ffffff?text=System+Architecture+%7C+Data+Flow+Pipeline)
@@ -195,7 +195,7 @@ graph TD
     class F,G storage
 ```
 
-## 📊 **System Components**
+## **System Components**
 
 ### **Core Services**
 
@@ -219,7 +219,7 @@ graph TD
    - Handles scheduling and monitoring
    - Provides graceful shutdown and error handling
 
-## 🔧 **Configuration**
+## **Configuration**
 
 The system is highly configurable through the `src/config.py` file:
 
@@ -244,13 +244,13 @@ aqi_alert_thresholds = {
 }
 ```
 
-## 📈 **Monitoring and Dashboards**
+## **Monitoring and Dashboards**
 
 ### **Real-Time Grafana Dashboard**
 
 The system features a comprehensive air quality monitoring dashboard with multiple visualization panels:
 
-#### **🎯 Core Monitoring Panels:**
+#### **Core Monitoring Panels:**
 
 1. **AQI Trends Over Time**
    - Time-series line chart showing air quality fluctuations
@@ -265,7 +265,7 @@ The system features a comprehensive air quality monitoring dashboard with multip
    - Horizontal bar chart ranking cities by pollution levels
    - Clear visual hierarchy for city comparisons
 
-#### **🚨 Alert & Environmental Monitoring:**
+#### **Alert & Environmental Monitoring:**
 
 4. **Recent Air Quality Alerts (Last 10 Alerts)**
    - Real-time alert table with timestamps
@@ -280,25 +280,16 @@ The system features a comprehensive air quality monitoring dashboard with multip
      - Pressure(hPa)
    - Environmental correlation analysis
 
-#### **📊 Technical Features:**
+#### **Technical Features:**
 - **Auto-refresh**: 30-second live updates
 - **Interactive charts**: Drill-down and filtering capabilities  
 - **Mobile responsive**: Enterprise-grade visualization
 - **PostgreSQL integration**: Direct database connectivity
 - **8 Global Cities**: New York, London, Tokyo, Beijing, Delhi, Los Angeles, Mexico City, São Paulo
 
-### **📸 Dashboard Screenshots**
+## **Features & Capabilities**
 
-![Real-Time Dashboard](https://via.placeholder.com/1200x700/1a202c/ffffff?text=Live+Dashboard+%7C+Multiple+Visualization+Panels)
-*Multi-panel dashboard showing AQI trends, city comparisons, alerts, and weather data*
-
-![Alert System](https://via.placeholder.com/800x400/dc2626/ffffff?text=Alert+System+%7C+Critical+Air+Quality+Warnings)
-*Real-time alert system highlighting unhealthy air quality conditions*
-
-
-## 🌟 **Features & Capabilities**
-
-### **🔥 Core Features**
+### **Core Features**
 - ✅ **Real-Time Processing**: 5-minute data collection with instant streaming
 - ✅ **Multi-API Integration**: OpenWeatherMap, AirVisual, WAQI with fallback
 - ✅ **Scalable Architecture**: Microservices with Docker containerization
@@ -308,7 +299,7 @@ The system features a comprehensive air quality monitoring dashboard with multip
 - ✅ **Mobile Responsive**: Professional dashboards on any device
 - ✅ **Enterprise Logging**: Structured logs with rotation and retention
 
-### **📈 Performance Metrics**
+### **Performance Metrics**
 - **Data Throughput**: 1,000+ messages/minute processing capacity
 - **Latency**: <30 seconds end-to-end data pipeline
 - **Availability**: 99.9% uptime with automatic recovery
@@ -316,7 +307,7 @@ The system features a comprehensive air quality monitoring dashboard with multip
 - **Storage**: Optimized time-series queries with indexing
 - **Memory Usage**: <4GB total system footprint
 
-### **🎯 Use Cases**
+### **Use Cases**
 
 | Stakeholder | Use Case | Benefits |
 |-------------|----------|----------|
@@ -326,7 +317,7 @@ The system features a comprehensive air quality monitoring dashboard with multip
 | **Researchers** | Environmental data analysis | Historical trends and pattern analysis |
 | **Developers** | Learning modern data engineering | Hands-on experience with industry tools |
 
-## 🛠️ **Development**
+## **Development**
 
 ### **Makefile Commands**
 
@@ -369,7 +360,7 @@ To add new air quality APIs:
 2. Add API configuration in `config.py`
 3. Implement new data collection methods
 
-## 📊 **Data Schema**
+## **Data Schema**
 
 ### **Air Quality Measurements**
 
@@ -399,7 +390,7 @@ CREATE TABLE air_quality_measurements (
 );
 ```
 
-## 🔍 **Troubleshooting**
+## **Troubleshooting**
 
 ### **Common Issues**
 
@@ -434,11 +425,11 @@ For better performance:
 2. **Adjust collection intervals** in `config.py`
 3. **Optimize Kafka consumer settings** for your hardware
 
-## 🎓 **Learning Objectives & Skills Development**
+## **Learning Objectives & Skills Development**
 
 This project provides hands-on experience with enterprise-grade technologies and practices:
 
-### **🔥 Technical Skills Gained**
+### **Technical Skills Gained**
 
 #### **1. Stream Processing & Messaging**
 - **Apache Kafka**: Message streaming, topic management, producer/consumer patterns
@@ -464,7 +455,7 @@ This project provides hands-on experience with enterprise-grade technologies and
 - **User Experience**: Interactive charts and mobile-responsive design
 - **Real-Time Monitoring**: Live data updates and performance dashboards
 
-### **🏆 Industry Applications**
+### **Industry Applications**
 
 | Technology Stack | Companies Using | Market Applications |
 |------------------|-----------------|-------------------|
@@ -486,7 +477,7 @@ This project provides hands-on experience with enterprise-grade technologies and
 
 ---
 
-## 🎯 **Next Steps**
+## **Next Steps**
 
 1. **Set up the system** using the quick start guide
 2. **Explore the dashboards** to understand the data flow
